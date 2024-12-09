@@ -4,7 +4,7 @@ var slideHeight;
 var sliderUlWidth;
 
 $(function() {
- getRssFeed("ссылка на ваш фид", mapFeed);
+ getRssFeed("https://lenta.ru/rss/last24", mapFeed);
 
  $('.left-arrow').on('click', function () {
   moveLeft();
